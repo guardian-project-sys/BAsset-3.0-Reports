@@ -1,0 +1,2498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+	
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+  <data name="accesoBAsset" xml:space="preserve">
+    <value>Acceso a BAsset</value>
+  </data>
+  <data name="aceptar" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="actividad" xml:space="preserve">
+    <value>Actividad</value>
+  </data>
+  <data name="actividadActualizar" xml:space="preserve">
+    <value>Actividad - Actualizar</value>
+  </data>
+  <data name="actividadAgregar" xml:space="preserve">
+    <value>Actividad - Agregar</value>
+  </data>
+  <data name="actividadClase" xml:space="preserve">
+    <value>Actividad Clase</value>
+  </data>
+  <data name="actividadDescripcion" xml:space="preserve">
+    <value>Actividad Descripción</value>
+  </data>
+  <data name="actividadesEstrategicas" xml:space="preserve">
+    <value>Actividades</value>
+  </data>
+  <data name="actividadEstrategica" xml:space="preserve">
+    <value>Actividad</value>
+  </data>
+  <data name="ActividadNoPlanificada" xml:space="preserve">
+    <value>Actividad no Planificada</value>
+  </data>
+  <data name="actividadPlanificada" xml:space="preserve">
+    <value>Actividad Planificada</value>
+  </data>
+  <data name="activo" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="activos" xml:space="preserve">
+    <value>Activos</value>
+  </data>
+  <data name="activosNoEncontrados" xml:space="preserve">
+    <value>activos no encontrados</value>
+  </data>
+  <data name="activosVinculados" xml:space="preserve">
+    <value>Activos Vinculados</value>
+  </data>
+  <data name="actual" xml:space="preserve">
+    <value>Actual</value>
+  </data>
+  <data name="actuales" xml:space="preserve">
+    <value>Actuales</value>
+  </data>
+  <data name="actualizar" xml:space="preserve">
+    <value>Actualizar</value>
+  </data>
+  <data name="actualizarActividad" xml:space="preserve">
+    <value>Actualizar actividad</value>
+  </data>
+  <data name="ActualizarArea" xml:space="preserve">
+    <value>Actualizar área</value>
+  </data>
+  <data name="actualizarCategoriaActivo" xml:space="preserve">
+    <value>Actualizar categoría activo</value>
+  </data>
+  <data name="actualizarCategoriaCostoIndirecto" xml:space="preserve">
+    <value>Actualizar categoria costo indirecto</value>
+  </data>
+  <data name="actualizarCentroCosto" xml:space="preserve">
+    <value>Actualizar centro costo</value>
+  </data>
+  <data name="actualizarCostoTipo" xml:space="preserve">
+    <value>Actualizar costo tipo</value>
+  </data>
+  <data name="actualizarCuenta" xml:space="preserve">
+    <value>Actualizar cuenta</value>
+  </data>
+  <data name="actualizarCuentaAgrupador" xml:space="preserve">
+    <value>Actualizar cuenta agrupador</value>
+  </data>
+  <data name="actualizarDepartamento" xml:space="preserve">
+    <value>Actualizar departamento</value>
+  </data>
+  <data name="actualizarEquipoTipo" xml:space="preserve">
+    <value>Actualizar tipo de equipo</value>
+  </data>
+  <data name="actualizarGrupoActivo" xml:space="preserve">
+    <value>Actualizar grupo activo</value>
+  </data>
+  <data name="actualizarJerarquiaComponente" xml:space="preserve">
+    <value>Actualizar jerarquía de componente</value>
+  </data>
+  <data name="actualizarOrganizacion" xml:space="preserve">
+    <value>Actualizar Organización</value>
+  </data>
+  <data name="actualizarPerfilUso" xml:space="preserve">
+    <value>Actualizar Perfil de Uso</value>
+  </data>
+  <data name="actualizarSistema" xml:space="preserve">
+    <value>Actualizar sistema</value>
+  </data>
+  <data name="actualizarSite" xml:space="preserve">
+    <value>Actualizar site</value>
+  </data>
+  <data name="actualizarSubSistema" xml:space="preserve">
+    <value>Actualizar subsistema</value>
+  </data>
+  <data name="actualizarUnidadMedida" xml:space="preserve">
+    <value>Actualizar unidad de medida</value>
+  </data>
+  <data name="actualizarWBS" xml:space="preserve">
+    <value>Actualizar WBS</value>
+  </data>
+  <data name="actualizarWIPAccount" xml:space="preserve">
+    <value>Actualizar WIP Account</value>
+  </data>
+  <data name="agregar" xml:space="preserve">
+    <value>Agregar</value>
+  </data>
+  <data name="agregarActividad" xml:space="preserve">
+    <value>Agregar actividad</value>
+  </data>
+  <data name="agregaractivoalpresupuesto" xml:space="preserve">
+    <value>Agregar Activo al Presupuesto</value>
+  </data>
+  <data name="AgregarArea" xml:space="preserve">
+    <value>Agrear área</value>
+  </data>
+  <data name="agregarCategoriaActivo" xml:space="preserve">
+    <value>Agregar categoría activo</value>
+  </data>
+  <data name="agregarCategoriaCostoIndirecto" xml:space="preserve">
+    <value>Agregar categoria costo indirecto</value>
+  </data>
+  <data name="agregarCentroCosto" xml:space="preserve">
+    <value>Agregar centro costo</value>
+  </data>
+  <data name="agregarCostoIndirecto" xml:space="preserve">
+    <value>Agregar Costo Indirecto</value>
+  </data>
+  <data name="agregarCostoTipo" xml:space="preserve">
+    <value>Agregar costo tipo</value>
+  </data>
+  <data name="agregarCuenta" xml:space="preserve">
+    <value>Agregar cuenta</value>
+  </data>
+  <data name="agregarCuentaAgrupador" xml:space="preserve">
+    <value>Agregar cuenta agrupador</value>
+  </data>
+  <data name="agregarDepartamento" xml:space="preserve">
+    <value>Agregar departamento</value>
+  </data>
+  <data name="agregarEquipoTipo" xml:space="preserve">
+    <value>Agregar tipo de equipo</value>
+  </data>
+  <data name="agregarGrupoActivo" xml:space="preserve">
+    <value>Agregar grupo activo</value>
+  </data>
+  <data name="agregarJerarquiaComponente" xml:space="preserve">
+    <value>Agregar código de componente</value>
+  </data>
+  <data name="agregarOrganizacion" xml:space="preserve">
+    <value>Agregar Organización</value>
+  </data>
+  <data name="agregarPerfilUso" xml:space="preserve">
+    <value>Agregar Perfil de Uso</value>
+  </data>
+  <data name="agregarSistema" xml:space="preserve">
+    <value>Agregar sistema</value>
+  </data>
+  <data name="agregarSite" xml:space="preserve">
+    <value>Agregar site</value>
+  </data>
+  <data name="agregarSubSistema" xml:space="preserve">
+    <value>Agregar subsistema</value>
+  </data>
+  <data name="agregarUnidadMedida" xml:space="preserve">
+    <value>Agregar unidad de medida</value>
+  </data>
+  <data name="agregarWBS" xml:space="preserve">
+    <value>Agregar WBS</value>
+  </data>
+  <data name="agregarWIPAccount" xml:space="preserve">
+    <value>Agregar WIP Account</value>
+  </data>
+  <data name="alterna" xml:space="preserve">
+    <value>Alterna</value>
+  </data>
+  <data name="anho" xml:space="preserve">
+    <value>Año</value>
+  </data>
+  <data name="aplicarCambios" xml:space="preserve">
+    <value>Aplicar Cambios</value>
+  </data>
+  <data name="aplicarfiltro" xml:space="preserve">
+    <value>Aplicar Filtro</value>
+  </data>
+  <data name="archivo" xml:space="preserve">
+    <value>Archivo</value>
+  </data>
+  <data name="area" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="asignada_a_una_AE" xml:space="preserve">
+    <value>Asignada a una Actividad</value>
+  </data>
+  <data name="automatico" xml:space="preserve">
+    <value>Automático</value>
+  </data>
+  <data name="basadaEnFecha" xml:space="preserve">
+    <value>Basada en Fecha</value>
+  </data>
+  <data name="Bloqueada" xml:space="preserve">
+    <value>Bloqueada</value>
+  </data>
+  <data name="borrar" xml:space="preserve">
+    <value>Borrar</value>
+  </data>
+  <data name="buscar" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="calculoSgtOcurrencia" xml:space="preserve">
+    <value>Cálculo Sig. Ocurrencia</value>
+  </data>
+  <data name="calSis" xml:space="preserve">
+    <value>Cal. Sis.</value>
+  </data>
+  <data name="cambiarFecha" xml:space="preserve">
+    <value>Cambiar Fecha</value>
+  </data>
+  <data name="campoRequerido" xml:space="preserve">
+    <value>Campo Requerido</value>
+  </data>
+  <data name="cancelar" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="cantidadActual" xml:space="preserve">
+    <value>Cantidad Actual</value>
+  </data>
+  <data name="cantidadPlan" xml:space="preserve">
+    <value>Cantidad Plan</value>
+  </data>
+  <data name="capital" xml:space="preserve">
+    <value>Capital</value>
+  </data>
+  <data name="cargando" xml:space="preserve">
+    <value>Cargando</value>
+  </data>
+  <data name="cargandoArchivo" xml:space="preserve">
+    <value>Cargando Archivo</value>
+  </data>
+  <data name="categoria" xml:space="preserve">
+    <value>Categoría</value>
+  </data>
+  <data name="categoriaActivo" xml:space="preserve">
+    <value>Categoría activo</value>
+  </data>
+  <data name="categoriaActivoActualizar" xml:space="preserve">
+    <value>Categoría Activo - Actualizar</value>
+  </data>
+  <data name="categoriaActivoAgregar" xml:space="preserve">
+    <value>Categoría Activo - Agregar</value>
+  </data>
+  <data name="categoriaCI" xml:space="preserve">
+    <value>Categoria CI</value>
+  </data>
+  <data name="categoriaCostoDepartamento" xml:space="preserve">
+    <value>Categoría costo departamento</value>
+  </data>
+  <data name="categoriaCostoIndirecto" xml:space="preserve">
+    <value>Categoria Costo Indirecto</value>
+  </data>
+  <data name="CategoriaCostoIndirectoActualizar" xml:space="preserve">
+    <value>Categoría Costo Indirecto - Actualizar</value>
+  </data>
+  <data name="categoriaCostoIndirectoAgregar" xml:space="preserve">
+    <value>Categoría Costo Indirecto - Agregar</value>
+  </data>
+  <data name="causa" xml:space="preserve">
+    <value>Causa</value>
+  </data>
+  <data name="centrocosto" xml:space="preserve">
+    <value>Centro Costo</value>
+  </data>
+  <data name="cerrar" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="claseActividad" xml:space="preserve">
+    <value>Clase Actividad</value>
+  </data>
+  <data name="claveDeRed" xml:space="preserve">
+    <value>Clave de red</value>
+  </data>
+  <data name="codigo" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="codigoActividad" xml:space="preserve">
+    <value>Código actividad</value>
+  </data>
+  <data name="codigoActividadTipo" xml:space="preserve">
+    <value>Código Tipo Actividad</value>
+  </data>
+  <data name="codigoArea" xml:space="preserve">
+    <value>Código área</value>
+  </data>
+  <data name="codigoCategoriaActivo" xml:space="preserve">
+    <value>Código categoria activo</value>
+  </data>
+  <data name="codigoCategoriaCostoIndirecto" xml:space="preserve">
+    <value>Código categoria costo indirecto</value>
+  </data>
+  <data name="codigoCentroCosto" xml:space="preserve">
+    <value>Código centro costo</value>
+  </data>
+  <data name="codigoComponente" xml:space="preserve">
+    <value>Código Componente</value>
+  </data>
+  <data name="codigoComponenteSinAsignar" xml:space="preserve">
+    <value>Código componente sin asignar</value>
+  </data>
+  <data name="codigoContadorActividad" xml:space="preserve">
+    <value>Código Contador Actividad</value>
+  </data>
+  <data name="codigoCostoTipo" xml:space="preserve">
+    <value>Código costo tipo</value>
+  </data>
+  <data name="codigoCuenta" xml:space="preserve">
+    <value>Código cuenta</value>
+  </data>
+  <data name="codigoCuentaAgrupador" xml:space="preserve">
+    <value>Código cuenta agrupador</value>
+  </data>
+  <data name="codigoDeOrganizacionRequerido" xml:space="preserve">
+    <value>Código de Organización requerido</value>
+  </data>
+  <data name="codigoDepartamento" xml:space="preserve">
+    <value>Código departamento</value>
+  </data>
+  <data name="codigoEquipoTipo" xml:space="preserve">
+    <value>Código equipo tipo</value>
+  </data>
+  <data name="codigoEsRequerido" xml:space="preserve">
+    <value>Código es requerido</value>
+  </data>
+  <data name="codigoGrupoActivo" xml:space="preserve">
+    <value>Código grupo activo</value>
+  </data>
+  <data name="codigoJerarquiaComponente" xml:space="preserve">
+    <value>Código código de componente</value>
+  </data>
+  <data name="codigoModificador" xml:space="preserve">
+    <value>Código Modificador</value>
+  </data>
+  <data name="codigoOrganizacion" xml:space="preserve">
+    <value>Código Organización</value>
+  </data>
+  <data name="codigoRequerido" xml:space="preserve">
+    <value>Código Requerido</value>
+  </data>
+  <data name="codigoSistema" xml:space="preserve">
+    <value>Código sistema</value>
+  </data>
+  <data name="codigoSite" xml:space="preserve">
+    <value>Código site</value>
+  </data>
+  <data name="codigoSubSistema" xml:space="preserve">
+    <value>Código subsistema</value>
+  </data>
+  <data name="codigoUnidadMedida" xml:space="preserve">
+    <value>Código unidad de medida</value>
+  </data>
+  <data name="codigoWBS" xml:space="preserve">
+    <value>Código WBS</value>
+  </data>
+  <data name="codigoWIPAccount" xml:space="preserve">
+    <value>Código WIP Account</value>
+  </data>
+  <data name="comentarios" xml:space="preserve">
+    <value>Comentarios</value>
+  </data>
+  <data name="componente" xml:space="preserve">
+    <value>Componente</value>
+  </data>
+  <data name="configurarActividad" xml:space="preserve">
+    <value>Configurar Actividad</value>
+  </data>
+  <data name="configurarArea" xml:space="preserve">
+    <value>Configurar Area</value>
+  </data>
+  <data name="configurarCategoriaActivo" xml:space="preserve">
+    <value>Configurar Categoría Activo</value>
+  </data>
+  <data name="configurarCategoriaCostoIndirecto" xml:space="preserve">
+    <value>Configurar Categoría Costo Indirecto</value>
+  </data>
+  <data name="configurarCentroCosto" xml:space="preserve">
+    <value>Configurar Centro Costo</value>
+  </data>
+  <data name="configurarCostoTipo" xml:space="preserve">
+    <value>Configurar Costo Tipo</value>
+  </data>
+  <data name="configurarCuenta" xml:space="preserve">
+    <value>Configurar Cuenta</value>
+  </data>
+  <data name="configurarCuentaAgrupador" xml:space="preserve">
+    <value>Configurar Cuenta Agrupador</value>
+  </data>
+  <data name="configurarDepartamento" xml:space="preserve">
+    <value>Configurar Departamento</value>
+  </data>
+  <data name="configurarEquipoTipo" xml:space="preserve">
+    <value>Configurar Equipo Tipo</value>
+  </data>
+  <data name="configurarGrupoActivo" xml:space="preserve">
+    <value>Configurar Grupo Activo</value>
+  </data>
+  <data name="configurarJerarquiaComponentes" xml:space="preserve">
+    <value>Configurar Jerarquía de Componentes</value>
+  </data>
+  <data name="configurarOrganizacion" xml:space="preserve">
+    <value>Configurar Organización</value>
+  </data>
+  <data name="configurarSistema" xml:space="preserve">
+    <value>Configurar Sistema</value>
+  </data>
+  <data name="configurarSite" xml:space="preserve">
+    <value>Configurar Site</value>
+  </data>
+  <data name="configurarSubSistema" xml:space="preserve">
+    <value>Configurar Subsistema</value>
+  </data>
+  <data name="configurarUnidadMedida" xml:space="preserve">
+    <value>Configurar Unidad Medida</value>
+  </data>
+  <data name="configurarWBS" xml:space="preserve">
+    <value>Configurar WBS</value>
+  </data>
+  <data name="configurarWIPAccount" xml:space="preserve">
+    <value>Configurar WIP Account</value>
+  </data>
+  <data name="confirmar" xml:space="preserve">
+    <value>Confirmar</value>
+  </data>
+  <data name="contadorActividad" xml:space="preserve">
+    <value>Contador Actividad</value>
+  </data>
+  <data name="copia" xml:space="preserve">
+    <value>Copia</value>
+  </data>
+  <data name="correo" xml:space="preserve">
+    <value>Correo</value>
+  </data>
+  <data name="costo" xml:space="preserve">
+    <value>Costo</value>
+  </data>
+  <data name="costoActual" xml:space="preserve">
+    <value>Costo Actual</value>
+  </data>
+  <data name="CostoLab" xml:space="preserve">
+    <value>Costo Lab.</value>
+  </data>
+  <data name="CostoLabor" xml:space="preserve">
+    <value>Costo Lab.</value>
+  </data>
+  <data name="CostoMat" xml:space="preserve">
+    <value>Costo Mat.</value>
+  </data>
+  <data name="CostoMaterial" xml:space="preserve">
+    <value>Costo Mat.</value>
+  </data>
+  <data name="CostoMis" xml:space="preserve">
+    <value>Costo Mis.</value>
+  </data>
+  <data name="CostoMiscelaneo" xml:space="preserve">
+    <value>Costo Mis.</value>
+  </data>
+  <data name="costoPlan" xml:space="preserve">
+    <value>Costo Plan</value>
+  </data>
+  <data name="costos" xml:space="preserve">
+    <value>Costos</value>
+  </data>
+  <data name="costosALaFecha" xml:space="preserve">
+    <value>Costos a la Fecha</value>
+  </data>
+  <data name="costosDirectos" xml:space="preserve">
+    <value>Costos Directos</value>
+  </data>
+  <data name="costosFuturos" xml:space="preserve">
+    <value>Costos Futuros</value>
+  </data>
+  <data name="costosIndirectos" xml:space="preserve">
+    <value>Costos Indirectos</value>
+  </data>
+  <data name="costoTipo" xml:space="preserve">
+    <value>Costo tipo</value>
+  </data>
+  <data name="costoTotal" xml:space="preserve">
+    <value>Costo Total</value>
+  </data>
+  <data name="costoUm" xml:space="preserve">
+    <value>Costo U.M.</value>
+  </data>
+  <data name="cuenta" xml:space="preserve">
+    <value>Cuenta</value>
+  </data>
+  <data name="cuentaAgrupador" xml:space="preserve">
+    <value>Cuenta agrupador</value>
+  </data>
+  <data name="cuentaEsRequerido" xml:space="preserve">
+    <value>Cuenta es requerido</value>
+  </data>
+  <data name="CuentaLab" xml:space="preserve">
+    <value>Cuenta Lab.</value>
+  </data>
+  <data name="CuentaMat" xml:space="preserve">
+    <value>Cuenta Mat.</value>
+  </data>
+  <data name="CuentaMis" xml:space="preserve">
+    <value>Cuenta Mis.</value>
+  </data>
+  <data name="datosGrabadosExitosamente" xml:space="preserve">
+    <value>Datos grabados exitosamente</value>
+  </data>
+  <data name="debeSeleccionar" xml:space="preserve">
+    <value>Debe seleccionar</value>
+  </data>
+  <data name="departamento" xml:space="preserve">
+    <value>Departamento</value>
+  </data>
+  <data name="dependencia" xml:space="preserve">
+    <value>Dependencia</value>
+  </data>
+  <data name="desactivada" xml:space="preserve">
+    <value>Desactivada</value>
+  </data>
+  <data name="descargarArchivo" xml:space="preserve">
+    <value>Descargar Archivo</value>
+  </data>
+  <data name="descripcion" xml:space="preserve">
+    <value>Descripción</value>
+  </data>
+  <data name="descripcionActividadEstrategica" xml:space="preserve">
+    <value>Descripción de Actividad</value>
+  </data>
+  <data name="descripcionActivo" xml:space="preserve">
+    <value>Descripción Activo</value>
+  </data>
+  <data name="descripcionAE" xml:space="preserve">
+    <value>Descrip. A.E.</value>
+  </data>
+  <data name="descripcionArea" xml:space="preserve">
+    <value>Descripción área</value>
+  </data>
+  <data name="descripcionCategoriaActivo" xml:space="preserve">
+    <value>Descripción categoría activo</value>
+  </data>
+  <data name="descripcionCategoriaCostoIndirecto" xml:space="preserve">
+    <value>Descripción categoría costo indirecto</value>
+  </data>
+  <data name="descripcionCentroCosto" xml:space="preserve">
+    <value>Descripción centro costo</value>
+  </data>
+  <data name="descripcionCostoTipo" xml:space="preserve">
+    <value>Descripción costo tipo</value>
+  </data>
+  <data name="descripcionCta" xml:space="preserve">
+    <value>Descripcion Cta.</value>
+  </data>
+  <data name="descripcionCuenta" xml:space="preserve">
+    <value>Descripción cuenta</value>
+  </data>
+  <data name="descripcionCuentaAgrupador" xml:space="preserve">
+    <value>Descripción cuenta agrupador</value>
+  </data>
+  <data name="descripcionDepartamento" xml:space="preserve">
+    <value>Descripción departamento</value>
+  </data>
+  <data name="descripcionEquipoTipo" xml:space="preserve">
+    <value>Descripción equipo tipo</value>
+  </data>
+  <data name="descripcionGrupoActivo" xml:space="preserve">
+    <value>Descripción grupo activo</value>
+  </data>
+  <data name="descripcionJerarquiaComponente" xml:space="preserve">
+    <value>Descripción código de componente</value>
+  </data>
+  <data name="descripcionOrganizacion" xml:space="preserve">
+    <value>Descripción Organización</value>
+  </data>
+  <data name="descripcionPadre" xml:space="preserve">
+    <value>Descripción padre</value>
+  </data>
+  <data name="descripcionSistema" xml:space="preserve">
+    <value>Descripción sistema</value>
+  </data>
+  <data name="descripcionSite" xml:space="preserve">
+    <value>Descripción site</value>
+  </data>
+  <data name="descripcionSubSistema" xml:space="preserve">
+    <value>Descripción subsistema</value>
+  </data>
+  <data name="descripcionUnidadMedida" xml:space="preserve">
+    <value>Descripción unidad de medida</value>
+  </data>
+  <data name="descripcionWBS" xml:space="preserve">
+    <value>Descripción WBS</value>
+  </data>
+  <data name="descripcionWIPAccount" xml:space="preserve">
+    <value>Descripción WIP Account</value>
+  </data>
+  <data name="diasPreviosPlan" xml:space="preserve">
+    <value>Días Previos Plan</value>
+  </data>
+  <data name="diasPreviosPlanificacion" xml:space="preserve">
+    <value>Días Previos Planificación</value>
+  </data>
+  <data name="disponibles" xml:space="preserve">
+    <value>Disponibles</value>
+  </data>
+  <data name="duracion" xml:space="preserve">
+    <value>Duración</value>
+  </data>
+  <data name="duracion_hrs" xml:space="preserve">
+    <value>Duración (Hrs)</value>
+  </data>
+  <data name="edad" xml:space="preserve">
+    <value>Edad</value>
+  </data>
+  <data name="editar" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="EditarActivoInformaciónProyecciónAgregar" xml:space="preserve">
+    <value>Editar Activo - Información - Modelo de simulación - Agregar</value>
+  </data>
+  <data name="EditarActivoInformaciónProyecciónEditar" xml:space="preserve">
+    <value>Editar Activo - Información - Modelo de simulación - Editar</value>
+  </data>
+  <data name="elementoNoEncontrado" xml:space="preserve">
+    <value>Elemento No Encontrado</value>
+  </data>
+  <data name="eliminacionExitosa" xml:space="preserve">
+    <value>Eliminación Exitosa</value>
+  </data>
+  <data name="enlace" xml:space="preserve">
+    <value>Enlace</value>
+  </data>
+  <data name="enlaces" xml:space="preserve">
+    <value>Enlaces</value>
+  </data>
+  <data name="errorAlIntentarActualizar" xml:space="preserve">
+    <value>Error al intentar actualizar</value>
+  </data>
+  <data name="errorAlIntentarEliminar" xml:space="preserve">
+    <value>Error al intentar eliminar</value>
+  </data>
+  <data name="ErrorAlIntentarGrabar" xml:space="preserve">
+    <value>Error al intentar grabar</value>
+  </data>
+  <data name="errorAlIntentarLeerInformacion" xml:space="preserve">
+    <value>Error al intentar leer información</value>
+  </data>
+  <data name="escalacionCD" xml:space="preserve">
+    <value>Escalación CD</value>
+  </data>
+  <data name="escalacionCI" xml:space="preserve">
+    <value>Escalación CI</value>
+  </data>
+  <data name="escribatextoparafiltrar" xml:space="preserve">
+    <value>Escriba texto para filtrar</value>
+  </data>
+  <data name="Espanhol" xml:space="preserve">
+    <value>Español</value>
+  </data>
+  <data name="Frances" xml:space="preserve">
+    <value>Francés</value>
+  </data>
+  <data name="esPorDefecto" xml:space="preserve">
+    <value>Es por defecto</value>
+  </data>
+  <data name="estadisticas" xml:space="preserve">
+    <value>Estadísticas</value>
+  </data>
+  <data name="estado" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="estadoProcesamiento" xml:space="preserve">
+    <value>Estado Procesamiento</value>
+  </data>
+  <data name="exportar" xml:space="preserve">
+    <value>Exportar</value>
+  </data>
+  <data name="ExportarACsv" xml:space="preserve">
+    <value>Exportar a CSV</value>
+  </data>
+  <data name="exportarAXls" xml:space="preserve">
+    <value>Exportar a XLS</value>
+  </data>
+  <data name="ExportarAXlsx" xml:space="preserve">
+    <value>Exportar a XLSX</value>
+  </data>
+  <data name="falla" xml:space="preserve">
+    <value>Falla</value>
+  </data>
+  <data name="fecha" xml:space="preserve">
+    <value>Fecha</value>
+  </data>
+  <data name="fechaAE" xml:space="preserve">
+    <value>Fecha A.E.</value>
+  </data>
+  <data name="fechaCreacion" xml:space="preserve">
+    <value>Fecha Creación</value>
+  </data>
+  <data name="fechafin" xml:space="preserve">
+    <value>Fecha Fin</value>
+  </data>
+  <data name="fechaFinActual" xml:space="preserve">
+    <value>Fecha Fin Actual</value>
+  </data>
+  <data name="fechaFinProgramada" xml:space="preserve">
+    <value>Fecha Fin Programada</value>
+  </data>
+  <data name="fechainicio" xml:space="preserve">
+    <value>Fecha Inicio</value>
+  </data>
+  <data name="fechaInicioActual" xml:space="preserve">
+    <value>Fecha Inicio Actual </value>
+  </data>
+  <data name="fechaInicioProgramada" xml:space="preserve">
+    <value>Fecha Inicio Programada</value>
+  </data>
+  <data name="fechaLU" xml:space="preserve">
+    <value>Fecha LU</value>
+  </data>
+  <data name="fechaUltimaEjecucion" xml:space="preserve">
+    <value>Fecha última ejecución</value>
+  </data>
+  <data name="fechaUltimaModificacion" xml:space="preserve">
+    <value>Fecha Última Modificación</value>
+  </data>
+  <data name="fechaUltimaProgramacion" xml:space="preserve">
+    <value>Fecha última programación</value>
+  </data>
+  <data name="fecProy" xml:space="preserve">
+    <value>Fec. Proy.</value>
+  </data>
+  <data name="fecSigOcu" xml:space="preserve">
+    <value>Fec. Sig. Ocu.</value>
+  </data>
+  <data name="fecUltOcu" xml:space="preserve">
+    <value>Fec. Ult. Ocu.</value>
+  </data>
+  <data name="ffactual" xml:space="preserve">
+    <value>F.F. Actual</value>
+  </data>
+  <data name="ffprogramada" xml:space="preserve">
+    <value>F.F. Programada</value>
+  </data>
+  <data name="fiactual" xml:space="preserve">
+    <value>F.I. Actual</value>
+  </data>
+  <data name="filtrar" xml:space="preserve">
+    <value>Filtrar</value>
+  </data>
+  <data name="filtros" xml:space="preserve">
+    <value>Filtros</value>
+  </data>
+  <data name="fiprogramada" xml:space="preserve">
+    <value>F.I. Programada</value>
+  </data>
+  <data name="formatoFechaC" xml:space="preserve">
+    <value>dd/MM/yyyy</value>
+  </data>
+  <data name="formatoFechaHoraC" xml:space="preserve">
+    <value>dd/MM/yyyy HH:mm</value>
+  </data>
+  <data name="frecuencia" xml:space="preserve">
+    <value>Frecuencia</value>
+  </data>
+  <data name="futuros" xml:space="preserve">
+    <value>Futuros</value>
+  </data>
+  <data name="grupo" xml:space="preserve">
+    <value>Grupo</value>
+  </data>
+  <data name="grupoProgramacion" xml:space="preserve">
+    <value>Grupo Programación</value>
+  </data>
+  <data name="hasta" xml:space="preserve">
+    <value>Hasta</value>
+  </data>
+  <data name="horasActual" xml:space="preserve">
+    <value>Horas Actual</value>
+  </data>
+  <data name="horasLabor" xml:space="preserve">
+    <value>Horas Labor</value>
+  </data>
+  <data name="horasPlan" xml:space="preserve">
+    <value>Horas Plan</value>
+  </data>
+  <data name="id" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="idActivo" xml:space="preserve">
+    <value>Id Activo</value>
+  </data>
+  <data name="idExterno" xml:space="preserve">
+    <value>Identificador Externo</value>
+  </data>
+  <data name="informacion" xml:space="preserve">
+    <value>Información</value>
+  </data>
+  <data name="Ingles" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="ingreseClave" xml:space="preserve">
+    <value>Ingrese clave</value>
+  </data>
+  <data name="ingresePorcentajeEscalamiento" xml:space="preserve">
+    <value>Ingrese Porcentaje Escalamiento</value>
+  </data>
+  <data name="ingreseUsuarioDeRed" xml:space="preserve">
+    <value>Ingrese usuario de red</value>
+  </data>
+  <data name="iniciarSesion" xml:space="preserve">
+    <value>Iniciar sesión</value>
+  </data>
+  <data name="instante" xml:space="preserve">
+    <value>Instante</value>
+  </data>
+  <data name="InterfazImportacionErrores" xml:space="preserve">
+    <value>Interfaz - Importación errores</value>
+  </data>
+  <data name="jerarquia" xml:space="preserve">
+    <value>Jerarquía</value>
+  </data>
+  <data name="JerarquiaComponenteActualizar" xml:space="preserve">
+    <value>Actualizar Jerarquia de Componentes</value>
+  </data>
+  <data name="JerarquiaComponenteAgregar" xml:space="preserve">
+    <value>Agregar Jerarquia de Componentes</value>
+  </data>
+  <data name="labor" xml:space="preserve">
+    <value>Labor</value>
+  </data>
+  <data name="lang" xml:space="preserve">
+    <value>Español</value>
+  </data>
+  <data name="lecturaUso" xml:space="preserve">
+    <value>Lectura de Uso</value>
+  </data>
+  <data name="lecturaUsoActivo" xml:space="preserve">
+    <value>Lectura Uso Activo</value>
+  </data>
+  <data name="lecturaUsoActualActivo" xml:space="preserve">
+    <value>L.U. Actual Activo</value>
+  </data>
+  <data name="lecturausoacumulado" xml:space="preserve">
+    <value>Lectura Uso Acumulado</value>
+  </data>
+  <data name="lecturaUsoAE" xml:space="preserve">
+    <value>Lectura Uso A.E.</value>
+  </data>
+  <data name="lecturaUsoAnual" xml:space="preserve">
+    <value>Lectura de Uso Anual</value>
+  </data>
+  <data name="lecturaUsoFin" xml:space="preserve">
+    <value>Lectura de Uso Fin</value>
+  </data>
+  <data name="lecturaUsoFinalActivo" xml:space="preserve">
+    <value>L.U. Final Activo</value>
+  </data>
+  <data name="lecturaUsoInicio" xml:space="preserve">
+    <value>Lectura de Uso Inicio</value>
+  </data>
+  <data name="lecturaUsoPorAnho" xml:space="preserve">
+    <value>Lectura de Uso por Año</value>
+  </data>
+  <data name="loadfile" xml:space="preserve">
+    <value>Subir</value>
+  </data>
+  <data name="logInterfacesImportacion" xml:space="preserve">
+    <value>Log Interfaces de Importación</value>
+  </data>
+  <data name="Mantenimiento" xml:space="preserve">
+    <value>Mantenimiento</value>
+  </data>
+  <data name="manual" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="material" xml:space="preserve">
+    <value>Material</value>
+  </data>
+  <data name="materialCntActual" xml:space="preserve">
+    <value>Material Cnt. Actual</value>
+  </data>
+  <data name="materiales" xml:space="preserve">
+    <value>Materiales</value>
+  </data>
+  <data name="maximoDeCaracteresParaCodigoPermitido" xml:space="preserve">
+    <value>Máximo de caracteres para código permitido</value>
+  </data>
+  <data name="maximoDeCaracteresParaDescripcionPadrePermitido" xml:space="preserve">
+    <value>Máximo de caracteres para descripción padre permitido</value>
+  </data>
+  <data name="maximoDeCaracteresParaDescripcionPermitido" xml:space="preserve">
+    <value>Máximo de caracteres para descripción permitido</value>
+  </data>
+  <data name="metodoProgramacion" xml:space="preserve">
+    <value>Método Programación</value>
+  </data>
+  <data name="miscelaneo" xml:space="preserve">
+    <value>Miscelaneo</value>
+  </data>
+  <data name="miscelaneos" xml:space="preserve">
+    <value>Misceláneos</value>
+  </data>
+  <data name="modalidad" xml:space="preserve">
+    <value>Modalidad</value>
+  </data>
+  <data name="modificador" xml:space="preserve">
+    <value>Modificador</value>
+  </data>
+  <data name="moneda" xml:space="preserve">
+    <value>Moneda</value>
+  </data>
+  <data name="monto" xml:space="preserve">
+    <value>Monto desde</value>
+  </data>
+  <data name="mostrar" xml:space="preserve">
+    <value>Mostrar</value>
+  </data>
+  <data name="mostrarEdiciones" xml:space="preserve">
+    <value>Mostrar Ediciones</value>
+  </data>
+  <data name="no" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="noEncontrada" xml:space="preserve">
+    <value> no encontrada</value>
+  </data>
+  <data name="noFuePosibleValidarInformacion" xml:space="preserve">
+    <value>No fue posible validar información</value>
+  </data>
+  <data name="nombre" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="nombreactivo" xml:space="preserve">
+    <value>Nombre Activo</value>
+  </data>
+  <data name="nombrePerfilUso" xml:space="preserve">
+    <value>Nombre Perfil Uso</value>
+  </data>
+  <data name="nombreproyeccion" xml:space="preserve">
+    <value>Nombre Modelo S</value>
+  </data>
+  <data name="noReempCostos" xml:space="preserve">
+    <value>No Reemp. Costos</value>
+  </data>
+  <data name="noReemplazarCostosConInterfaz" xml:space="preserve">
+    <value>No reemplazar costos con interfaz</value>
+  </data>
+  <data name="noReemplazarultimaocurrencia" xml:space="preserve">
+    <value>No reemplazar última ocurrencia</value>
+  </data>
+  <data name="Nro" xml:space="preserve">
+    <value>N°</value>
+  </data>
+  <data name="nroActivos" xml:space="preserve">
+    <value>Nro. Activos</value>
+  </data>
+  <data name="nuevaFecha" xml:space="preserve">
+    <value>Nueva Fecha</value>
+  </data>
+  <data name="nuevo" xml:space="preserve">
+    <value>Nuevo</value>
+  </data>
+  <data name="NuevoLUAcumulado" xml:space="preserve">
+    <value>Nuevo LU Acumulado</value>
+  </data>
+  <data name="numero" xml:space="preserve">
+    <value>Nro.</value>
+  </data>
+  <data name="numeroActivo" xml:space="preserve">
+    <value>Número Activo</value>
+  </data>
+  <data name="numeroGrupo" xml:space="preserve">
+    <value>Número Grupo</value>
+  </data>
+  <data name="numeroOT" xml:space="preserve">
+    <value>Número O.T.</value>
+  </data>
+  <data name="numeroParte" xml:space="preserve">
+    <value>Nro. Parte</value>
+  </data>
+  <data name="numeroSerie" xml:space="preserve">
+    <value>Número Serie</value>
+  </data>
+  <data name="observacion" xml:space="preserve">
+    <value>Observación</value>
+  </data>
+  <data name="ocultar" xml:space="preserve">
+    <value>Ocultar</value>
+  </data>
+  <data name="OcurrenciasFuturas" xml:space="preserve">
+    <value>Ocur. Futuras</value>
+  </data>
+  <data name="operacion" xml:space="preserve">
+    <value>Operación</value>
+  </data>
+  <data name="operaciones" xml:space="preserve">
+    <value>Operaciones</value>
+  </data>
+  <data name="ordenTrabajo" xml:space="preserve">
+    <value>Orden Trabajo</value>
+  </data>
+  <data name="organizacion" xml:space="preserve">
+    <value>Organización</value>
+  </data>
+  <data name="origeCosto" xml:space="preserve">
+    <value>Origen Costo</value>
+  </data>
+  <data name="origen" xml:space="preserve">
+    <value>Origen</value>
+  </data>
+  <data name="otPadre" xml:space="preserve">
+    <value>O.T. Padre</value>
+  </data>
+  <data name="otPlanificada" xml:space="preserve">
+    <value>O.T. Planificada</value>
+  </data>
+  <data name="Otros" xml:space="preserve">
+    <value>Otros</value>
+  </data>
+  <data name="paginacion" xml:space="preserve">
+    <value>Paginacion</value>
+  </data>
+  <data name="perfilUso" xml:space="preserve">
+    <value>Perfil de Uso</value>
+  </data>
+  <data name="periodo" xml:space="preserve">
+    <value>Periodo</value>
+  </data>
+  <data name="periodoFin" xml:space="preserve">
+    <value>Periodo Fin</value>
+  </data>
+  <data name="periodoInicio" xml:space="preserve">
+    <value>Periodo Inicio</value>
+  </data>
+  <data name="Planificada" xml:space="preserve">
+    <value>Planificada</value>
+  </data>
+  <data name="planUso" xml:space="preserve">
+    <value>Plan de Uso</value>
+  </data>
+  <data name="porFecha" xml:space="preserve">
+    <value>Por Fecha</value>
+  </data>
+  <data name="porLecturaUso" xml:space="preserve">
+    <value>Lectura de Uso</value>
+  </data>
+  <data name="porSistema" xml:space="preserve">
+    <value>Por Sistema</value>
+  </data>
+  <data name="presupuesto" xml:space="preserve">
+    <value>Presupuesto</value>
+  </data>
+  <data name="primeraOcurrencia" xml:space="preserve">
+    <value>Primera Ocurrencia</value>
+  </data>
+  <data name="prioridad" xml:space="preserve">
+    <value>Prioridad</value>
+  </data>
+  <data name="proceso" xml:space="preserve">
+    <value>Proceso</value>
+  </data>
+  <data name="proveedor" xml:space="preserve">
+    <value>Proveedor</value>
+  </data>
+  <data name="proyeccion" xml:space="preserve">
+    <value>Modelo S</value>
+  </data>
+  <data name="proyeccionBasadaEn" xml:space="preserve">
+    <value>Modelo S Basado en</value>
+  </data>
+  <data name="proyeccionDestino" xml:space="preserve">
+    <value>Modelo S Destino</value>
+  </data>
+  <data name="Proyecciones" xml:space="preserve">
+    <value>Proyecciones</value>
+  </data>
+  <data name="proyeccionesVinculadas" xml:space="preserve">
+    <value>Modelos S Vinculados</value>
+  </data>
+  <data name="proyeccionNoEncontrada" xml:space="preserve">
+    <value>Modelo S no encontrado</value>
+  </data>
+  <data name="proyeccionOrigen" xml:space="preserve">
+    <value>Modelo S Origen</value>
+  </data>
+  <data name="relacionOTPadre" xml:space="preserve">
+    <value>Relación O.T. Padre</value>
+  </data>
+  <data name="reporteActividadesEstratégicas" xml:space="preserve">
+    <value>Reporte Actividades</value>
+  </data>
+  <data name="reporteActivos" xml:space="preserve">
+    <value>Reporte Activos</value>
+  </data>
+  <data name="reporteActualPresupuestoForecast" xml:space="preserve">
+    <value>Reporte Actual Presupuesto Forecast</value>
+  </data>
+  <data name="reporteActualPresupuestoporCuentas" xml:space="preserve">
+    <value>Reporte Actual Presupuesto por Cuentas</value>
+  </data>
+  <data name="reporteActualvsPresupuesto" xml:space="preserve">
+    <value>Reporte Actual vs Presupuesto</value>
+  </data>
+  <data name="reporteInterfazProgramaciónActividadesEstratégicas" xml:space="preserve">
+    <value>Reporte Interfaz Programación Actividades</value>
+  </data>
+  <data name="reporteLibroMayor" xml:space="preserve">
+    <value>Reporte Libro Mayor</value>
+  </data>
+  <data name="reporteOrdenesdetrabajo" xml:space="preserve">
+    <value>Reporte Órdenes de trabajo</value>
+  </data>
+  <data name="reportePresupuesto" xml:space="preserve">
+    <value>Reporte Presupuesto</value>
+  </data>
+  <data name="reporteRVIC" xml:space="preserve">
+    <value>Reporte RVIC</value>
+  </data>
+  <data name="responsableCosto" xml:space="preserve">
+    <value>Responsable Costo</value>
+  </data>
+  <data name="seleccionados" xml:space="preserve">
+    <value>Seleccionados</value>
+  </data>
+  <data name="seleccionar" xml:space="preserve">
+    <value>[ seleccionar ]</value>
+  </data>
+  <data name="seleccionarFecha" xml:space="preserve">
+    <value>Seleccionar Fecha</value>
+  </data>
+  <data name="selecciondatos" xml:space="preserve">
+    <value>Selección de Datos</value>
+  </data>
+  <data name="si" xml:space="preserve">
+    <value>Si</value>
+  </data>
+  <data name="SiguienteOcurrirSistema" xml:space="preserve">
+    <value>Siguiente en ocurrir - Sistema</value>
+  </data>
+  <data name="SiguienteOcurrirUsuario" xml:space="preserve">
+    <value>Siguiente en ocurrir - Usuario</value>
+  </data>
+  <data name="simple" xml:space="preserve">
+    <value>Simple</value>
+  </data>
+  <data name="sistema" xml:space="preserve">
+    <value>Sistema</value>
+  </data>
+  <data name="site" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="subsistema" xml:space="preserve">
+    <value>Subsistema</value>
+  </data>
+  <data name="subSistemaEsRequerido" xml:space="preserve">
+    <value>Subsistema es requerido</value>
+  </data>
+  <data name="subSistemas" xml:space="preserve">
+    <value>Subsistemas</value>
+  </data>
+  <data name="supresion" xml:space="preserve">
+    <value>Supresión</value>
+  </data>
+  <data name="tagId" xml:space="preserve">
+    <value>Tag Id</value>
+  </data>
+  <data name="terminado" xml:space="preserve">
+    <value>Terminado</value>
+  </data>
+  <data name="tipo" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="tipoactividad" xml:space="preserve">
+    <value>Tipo Actividad</value>
+  </data>
+  <data name="tipoactivo" xml:space="preserve">
+    <value>Tipo Activo</value>
+  </data>
+  <data name="TipoAviso" xml:space="preserve">
+    <value>Tipo aviso</value>
+  </data>
+  <data name="tipoCosto" xml:space="preserve">
+    <value>Tipo Costo</value>
+  </data>
+  <data name="tipoingreso" xml:space="preserve">
+    <value>Tipo Ingreso</value>
+  </data>
+  <data name="TipoInterfaz" xml:space="preserve">
+    <value>Tipo interfaz</value>
+  </data>
+  <data name="tipoProyeccion" xml:space="preserve">
+    <value>Tipo Modelo S</value>
+  </data>
+  <data name="tipoSigProy" xml:space="preserve">
+    <value>Tipo Sig. Proy.</value>
+  </data>
+  <data name="todo" xml:space="preserve">
+    <value>Todo</value>
+  </data>
+  <data name="todos" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="tolerancia" xml:space="preserve">
+    <value>Tolerancia</value>
+  </data>
+  <data name="total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="TotalOT" xml:space="preserve">
+    <value>Total O.T.</value>
+  </data>
+  <data name="totalPresupuesto" xml:space="preserve">
+    <value>Total Presupuesto</value>
+  </data>
+  <data name="ultimaEjecucion" xml:space="preserve">
+    <value>Ultima Ejecución</value>
+  </data>
+  <data name="ultimaFecha" xml:space="preserve">
+    <value>Ultima Fecha</value>
+  </data>
+  <data name="ultimaModificacion" xml:space="preserve">
+    <value>Ultima Modificación</value>
+  </data>
+  <data name="unidad" xml:space="preserve">
+    <value>Unidad</value>
+  </data>
+  <data name="unidadmedida" xml:space="preserve">
+    <value>Unidad de Medida</value>
+  </data>
+  <data name="usoAnual" xml:space="preserve">
+    <value>Uso Anual</value>
+  </data>
+  <data name="usoFin" xml:space="preserve">
+    <value>Uso Fin</value>
+  </data>
+  <data name="usoFinal" xml:space="preserve">
+    <value>Uso Final</value>
+  </data>
+  <data name="usoInicio" xml:space="preserve">
+    <value>Uso Inicio</value>
+  </data>
+  <data name="usuario" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="usuarioNoEstaDadoDeAltaEnSistemaBAsset" xml:space="preserve">
+    <value>Usuario no esta dado de alta en B-Asset</value>
+  </data>
+  <data name="usuarioOClaveInvalido" xml:space="preserve">
+    <value>Usuario o clave inválido</value>
+  </data>
+  <data name="validar" xml:space="preserve">
+    <value>Validar</value>
+  </data>
+  <data name="validarLU" xml:space="preserve">
+    <value>Validar LU</value>
+  </data>
+  <data name="vencida" xml:space="preserve">
+    <value>Vencida</value>
+  </data>
+  <data name="vencido" xml:space="preserve">
+    <value>Vencido</value>
+  </data>
+  <data name="vencidos" xml:space="preserve">
+    <value>Vencidos</value>
+  </data>
+  <data name="ver" xml:space="preserve">
+    <value>Ver</value>
+  </data>
+  <data name="version" xml:space="preserve">
+    <value>Versión</value>
+  </data>
+  <data name="vidaComponente" xml:space="preserve">
+    <value>Vida Componente</value>
+  </data>
+  <data name="vidaFecha" xml:space="preserve">
+    <value>Vida a la Fecha</value>
+  </data>
+  <data name="vistaGantt" xml:space="preserve">
+    <value>Vista Gantt</value>
+  </data>
+  <data name="vistaLista" xml:space="preserve">
+    <value>Vista Lista</value>
+  </data>
+  <data name="wipaccount" xml:space="preserve">
+    <value>WIP Account</value>
+  </data>
+  <data name="y" xml:space="preserve">
+    <value>y</value>
+  </data>
+  <data name="_A0001" xml:space="preserve">
+    <value>Mover todo a la derecha</value>
+  </data>
+  <data name="_A0002" xml:space="preserve">
+    <value>Mover seleccionados a la derecha</value>
+  </data>
+  <data name="_A0003" xml:space="preserve">
+    <value>Mover todo a la izquierda</value>
+  </data>
+  <data name="_A0004" xml:space="preserve">
+    <value>Mover seleccionados a la izquierda</value>
+  </data>
+  <data name="_I0001" xml:space="preserve">
+    <value>Fecha inicio no puede ser mayor a Fecha Fin</value>
+  </data>
+  <data name="_I0002" xml:space="preserve">
+    <value>Fecha no puede ser mayor a la actual</value>
+  </data>
+  <data name="_I0003" xml:space="preserve">
+    <value>Valor ingresado no puede ser menor a cero</value>
+  </data>
+  <data name="_I0004" xml:space="preserve">
+    <value>Cantidad de lectura de uso es menor la ultima lectura de uso acumulada</value>
+  </data>
+  <data name="_I0005" xml:space="preserve">
+    <value>Por favor, corregir valor ingresado</value>
+  </data>
+  <data name="_I0006" xml:space="preserve">
+    <value>¿Está seguro de eliminar la lectura de uso?</value>
+  </data>
+  <data name="_I0007" xml:space="preserve">
+    <value>Error, cantidad no válida</value>
+  </data>
+  <data name="_I0008" xml:space="preserve">
+    <value>Por favor, corregir valor</value>
+  </data>
+  <data name="_I0009" xml:space="preserve">
+    <value>Por favor, ingrese el valor a buscar</value>
+  </data>
+  <data name="_I0010" xml:space="preserve">
+    <value>, no fue encontrado</value>
+  </data>
+  <data name="_I0011" xml:space="preserve">
+    <value>¿Esta seguro de eliminar la orden de trabajo?</value>
+  </data>
+  <data name="_I0012" xml:space="preserve">
+    <value>¡Campo requerido!</value>
+  </data>
+  <data name="_I0013" xml:space="preserve">
+    <value>Operación realizada con éxito</value>
+  </data>
+  <data name="_I0014" xml:space="preserve">
+    <value>Se detecto un error en el procesamiento del sistema</value>
+  </data>
+  <data name="_I0015" xml:space="preserve">
+    <value>No se proceso ningún dato</value>
+  </data>
+  <data name="_I0016" xml:space="preserve">
+    <value>No hay dato para procesar</value>
+  </data>
+  <data name="_I0017" xml:space="preserve">
+    <value>Error al intentar eliminar elemento</value>
+  </data>
+  <data name="_I0018" xml:space="preserve">
+    <value>No se completó la eliminación debido a que existen registros asociados</value>
+  </data>
+  <data name="_I0019" xml:space="preserve">
+    <value>La actualización de la Orden de Trabajo fue exitosa</value>
+  </data>
+  <data name="_I0020" xml:space="preserve">
+    <value>Valores inválidos o incompletos en </value>
+  </data>
+  <data name="_I0021" xml:space="preserve">
+    <value>¿Esta seguro de eliminar el activo?</value>
+  </data>
+  <data name="_I0022" xml:space="preserve">
+    <value>¿Esta seguro de eliminar el Modelo de simulación?</value>
+  </data>
+  <data name="_I0023" xml:space="preserve">
+    <value>¿Esta seguro de eliminar la actividad?</value>
+  </data>
+  <data name="_I0024" xml:space="preserve">
+    <value>Lectura Uso Fin debe ser Mayor a la Lectura de Uso Inicio</value>
+  </data>
+  <data name="_I0025" xml:space="preserve">
+    <value>Si se aceptan los cambios, las actividades del activo seran reemplazados por las actividades del activo-modelo s seleccionados. ¿Está seguro?</value>
+  </data>
+  <data name="_I0026" xml:space="preserve">
+    <value>La Prioridad no puede ser menor a 1</value>
+  </data>
+  <data name="_I0027" xml:space="preserve">
+    <value>Cambios previos a la fecha de inicio del activo</value>
+  </data>
+  <data name="_I0028" xml:space="preserve">
+    <value>Fecha Siguiente Ocurrencia no puede ser menor a la Fecha Actual</value>
+  </data>
+  <data name="_I0029" xml:space="preserve">
+    <value>Operación denegada: La cuenta ya se encuentra en la lista.</value>
+  </data>
+  <data name="_I0030" xml:space="preserve">
+    <value>Combinación ya existe</value>
+  </data>
+  <data name="_I0031" xml:space="preserve">
+    <value>Fecha Siguiente Ocurrencia no debe ser mayor a la Fecha de Fin</value>
+  </data>
+  <data name="_I0032" xml:space="preserve">
+    <value>El modelo de simulación del Activo no posee Fecha Fin</value>
+  </data>
+  <data name="_I0033" xml:space="preserve">
+    <value>Fecha Siguiente Ocurrencia no debe estar vacía</value>
+  </data>
+  <data name="_I0034" xml:space="preserve">
+    <value>Grupo de Programación no debe estar vacío</value>
+  </data>
+  <data name="_I0035" xml:space="preserve">
+    <value>Prioridad de Programación no debe estar vacío</value>
+  </data>
+  <data name="_I0036" xml:space="preserve">
+    <value>No se ha procesado la operación</value>
+  </data>
+  <data name="_I0037" xml:space="preserve">
+    <value>Actividad no encontrada</value>
+  </data>
+  <data name="_I0038" xml:space="preserve">
+    <value>No se encontró el modelo de simulación</value>
+  </data>
+  <data name="_I0039" xml:space="preserve">
+    <value>No se ha calculado correctamente la Lectura de Uso Siguiente Ocurrencia</value>
+  </data>
+  <data name="_I0040" xml:space="preserve">
+    <value>No se ha calculado correctamente la Fecha Siguiente Ocurrencia</value>
+  </data>
+  <data name="_I0041" xml:space="preserve">
+    <value>La fecha debe estar comprendida entre las fechas: </value>
+  </data>
+  <data name="_I0042" xml:space="preserve">
+    <value>La Fecha debe de ser mayor a la Fecha de Lectura de Uso Real:</value>
+  </data>
+  <data name="_I0043" xml:space="preserve">
+    <value>La lectura de uso debe estar dentro del rango de: </value>
+  </data>
+  <data name="_I0044" xml:space="preserve">
+    <value>La lectura de uso debe de ser mayor a la Lectura de Uso Real:</value>
+  </data>
+  <data name="_I0045" xml:space="preserve">
+    <value>Valores permitidos entre 50% y 100%</value>
+  </data>
+  <data name="_I0046" xml:space="preserve">
+    <value>¿Está seguro de mover la Actividad : [1],\n del Activo: [2],\na la fecha [3]?</value>
+  </data>
+  <data name="_I0047" xml:space="preserve">
+    <value>¿Desea bloquear ésta Actividad?</value>
+  </data>
+  <data name="_I0048" xml:space="preserve">
+    <value>Valor debe estar entre [1] y [2]</value>
+  </data>
+  <data name="_I0049" xml:space="preserve">
+    <value>Sólo se permite ingresar valores numéricos</value>
+  </data>
+  <data name="_I0050" xml:space="preserve">
+    <value>No se permiten valores menores a 0</value>
+  </data>
+  <data name="_I0051" xml:space="preserve">
+    <value>Ocurrió un error inesperado</value>
+  </data>
+  <data name="_I0052" xml:space="preserve">
+    <value>¿Esta seguro de eliminar el perfil de uso?</value>
+  </data>
+  <data name="_I0053" xml:space="preserve">
+    <value>Operación denegada: Debe ingresar una Unidad de Medida</value>
+  </data>
+  <data name="_I0054" xml:space="preserve">
+    <value>El Periodo Inicio no puede ser mayor al Periodo Fin</value>
+  </data>
+  <data name="_I0055" xml:space="preserve">
+    <value>Operación denegada la unidad de medida ya se encuentra en la lista</value>
+  </data>
+  <data name="_I0056" xml:space="preserve">
+    <value>¿Está seguro que desea eliminar Unidad de Medida del Perfil de Uso?</value>
+  </data>
+  <data name="_I0057" xml:space="preserve">
+    <value>Operación denegada: el Perfil de Uso debe estar enlazado como mínimo a una Unidad de Medida</value>
+  </data>
+  <data name="_I0058" xml:space="preserve">
+    <value>Orden trabajo a eliminar no encontrado</value>
+  </data>
+  <data name="_I0059" xml:space="preserve">
+    <value>No se completó la eliminación debido a que existen registros asociados</value>
+  </data>
+  <data name="_I0060" xml:space="preserve">
+    <value>Perfil de uso no encontrado</value>
+  </data>
+  <data name="_I0061" xml:space="preserve">
+    <value>Valores inválidos o incompletos en</value>
+  </data>
+  <data name="_I0062" xml:space="preserve">
+    <value>Ha ocurrido un error</value>
+  </data>
+  <data name="_I0063" xml:space="preserve">
+    <value>Administrador Presupuesto - agregar</value>
+  </data>
+  <data name="_I0064" xml:space="preserve">
+    <value>Crear nuevo presupuesto</value>
+  </data>
+  <data name="_I0065" xml:space="preserve">
+    <value>No puede exceder las [0] [1] del mes</value>
+  </data>
+  <data name="_I0066" xml:space="preserve">
+    <value>¿Está seguro de eliminar activo de presupuesto?</value>
+  </data>
+  <data name="_I0067" xml:space="preserve">
+    <value>Administrador presupuesto - Editar - Activos - Agregar</value>
+  </data>
+  <data name="_I0068" xml:space="preserve">
+    <value>Administrador presupuesto - Editar - Activos - Editar</value>
+  </data>
+  <data name="_I0069" xml:space="preserve">
+    <value>No existe el Activo en el Presupuesto</value>
+  </data>
+  <data name="_I0070" xml:space="preserve">
+    <value>Periodo Inicio no puede ser mayor al Periodo Final</value>
+  </data>
+  <data name="_I0071" xml:space="preserve">
+    <value>Periodo Inicio no válido</value>
+  </data>
+  <data name="_I0072" xml:space="preserve">
+    <value>Periodo Final no válido</value>
+  </data>
+  <data name="_I0073" xml:space="preserve">
+    <value>No se puede aplicar un valor de 0</value>
+  </data>
+  <data name="_I0074" xml:space="preserve">
+    <value>¿Está seguro de aplicar el cambio?</value>
+  </data>
+  <data name="_I0075" xml:space="preserve">
+    <value>Debe seleccionar alguna opción</value>
+  </data>
+  <data name="_I0076" xml:space="preserve">
+    <value>Ya existe Costo Indirecto para el Periodo</value>
+  </data>
+  <data name="_I0077" xml:space="preserve">
+    <value>No ha llenado todos los datos</value>
+  </data>
+  <data name="_I0078" xml:space="preserve">
+    <value>¿Está seguro de eliminar el presupuesto?</value>
+  </data>
+  <data name="_I0079" xml:space="preserve">
+    <value>¿Está seguro de eliminar el activo?</value>
+  </data>
+  <data name="_I0080" xml:space="preserve">
+    <value>Se actualizarán [1] registros, ¿está seguro?</value>
+  </data>
+  <data name="_I0081" xml:space="preserve">
+    <value>Activo no encontrado</value>
+  </data>
+  <data name="_I0082" xml:space="preserve">
+    <value>Modelo de simulación a eliminar no encontrado</value>
+  </data>
+  <data name="_I0083" xml:space="preserve">
+    <value>Operación realizada con éxito, el proceso va a tomar aproximadamente 3 minutos</value>
+  </data>
+  <data name="_I0084" xml:space="preserve">
+    <value>Ya existe una proyeccíón con el mismo nombre y tipo para este activo</value>
+  </data>
+  <data name="_I0085" xml:space="preserve">
+    <value>No es posible reemplazar Modelo de simulación</value>
+  </data>
+  <data name="_I0086" xml:space="preserve">
+    <value>Ya existe una proyeccíón del mismo tipo y con el mismo nombre para este activo.</value>
+  </data>
+  <data name="_I0087" xml:space="preserve">
+    <value>Hubo un error al crear el nuevo Modelo de simulación.</value>
+  </data>
+  <data name="_I0088" xml:space="preserve">
+    <value>El valor de la Fecha Fin no puede ser Menor o Igual a la última Fecha de Lectura de Uso registrada</value>
+  </data>
+  <data name="_I0089" xml:space="preserve">
+    <value>El valor de Lectura de Uso Fin no puede ser Menor o Igual a la última Lectura de Uso registrada</value>
+  </data>
+  <data name="_I0090" xml:space="preserve">
+    <value>Se están procesando las proyecciones</value>
+  </data>
+  <data name="_I0091" xml:space="preserve">
+    <value>La fecha fin programada no puede ser menor a la fecha inicio programada</value>
+  </data>
+  <data name="_I0092" xml:space="preserve">
+    <value>La fecha inicio actual no puede ser mayor a la fecha fin actual</value>
+  </data>
+  <data name="_I0093" xml:space="preserve">
+    <value>¿Está seguro que desea eliminar Actividad?</value>
+  </data>
+  <data name="_I0094" xml:space="preserve">
+    <value>¿Está seguro que desea eliminar Area?</value>
+  </data>
+  <data name="_I0095" xml:space="preserve">
+    <value>¿Está seguro que desea eliminar Categoría?</value>
+  </data>
+  <data name="_I0096" xml:space="preserve">
+    <value>¿Está seguro que desea eliminar Categoría de Costo Indirecto?</value>
+  </data>
+  <data name="_I0097" xml:space="preserve">
+    <value>¿Está seguro que desea eliminar Centro Costo?</value>
+  </data>
+  <data name="_I0098" xml:space="preserve">
+    <value>¿Está seguro que desea eliminar Codigo Componente?</value>
+  </data>
+  <data name="_I0099" xml:space="preserve">
+    <value>¿Está seguro que desea eliminar Tipo Costo?</value>
+  </data>
+  <data name="_I0100" xml:space="preserve">
+    <value>¿Está seguro que desea eliminar Cuenta?</value>
+  </data>
+  <data name="_I0101" xml:space="preserve">
+    <value>¿Está seguro que desea eliminar Cuenta Agrupador?</value>
+  </data>
+  <data name="_I0102" xml:space="preserve">
+    <value>¿Está seguro que desea eliminar Departamento?</value>
+  </data>
+  <data name="_I0103" xml:space="preserve">
+    <value>¿Está seguro que desea eliminar Tipo Equipo?</value>
+  </data>
+  <data name="_I0104" xml:space="preserve">
+    <value>¿Está seguro que desea eliminar Grupo Activo?</value>
+  </data>
+  <data name="_I0105" xml:space="preserve">
+    <value>¿Está seguro que desea eliminar Organizacion?</value>
+  </data>
+  <data name="_I0106" xml:space="preserve">
+    <value>¿Está seguro que desea eliminar Sistema?</value>
+  </data>
+  <data name="_I0107" xml:space="preserve">
+    <value>¿Está seguro que desea eliminar Site?</value>
+  </data>
+  <data name="_I0108" xml:space="preserve">
+    <value>¿Está seguro que desea eliminar Sub Sistema?</value>
+  </data>
+  <data name="_I0109" xml:space="preserve">
+    <value>¿Está seguro que desea eliminar Unidad Medida?</value>
+  </data>
+  <data name="_I0110" xml:space="preserve">
+    <value>¿Está seguro que desea eliminar WBS?</value>
+  </data>
+  <data name="_I0111" xml:space="preserve">
+    <value>¿Está seguro que desea eliminar WIP Account?</value>
+  </data>
+  <data name="_I0112" xml:space="preserve">
+    <value>Presupuesto a eliminar no encontrado</value>
+  </data>
+  <data name="_I0113" xml:space="preserve">
+    <value>Error al intentar eliminar presupuesto</value>
+  </data>
+  <data name="_I0114" xml:space="preserve">
+    <value>¿Está seguro que es correcto el valor ingresado: [1]?</value>
+  </data>
+  <data name="_I0115" xml:space="preserve">
+    <value>¿Desea actualizar el "C.C.", "C.M.", "T.A.", "C.A." de las Ordenes de Trabajo actualmente vinculadas a ésta Actividad?</value>
+  </data>
+  <data name="_I0116" xml:space="preserve">
+    <value>No se puede eliminar un modelo de simulación de tipo "Actual"</value>
+  </data>
+  <data name="_I0117" xml:space="preserve">
+    <value>Presupuesto no encontrado</value>
+  </data>
+  <data name="_M0001" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="_M0002" xml:space="preserve">
+    <value>Administración</value>
+  </data>
+  <data name="_M0003" xml:space="preserve">
+    <value>Estadísticas de Uso</value>
+  </data>
+  <data name="_M0004" xml:space="preserve">
+    <value>Activos</value>
+  </data>
+  <data name="_M0005" xml:space="preserve">
+    <value>Planeamiento</value>
+  </data>
+  <data name="_M0006" xml:space="preserve">
+    <value>Proyección Actividades</value>
+  </data>
+  <data name="_M0007" xml:space="preserve">
+    <value>Estrategia</value>
+  </data>
+  <data name="_M0008" xml:space="preserve">
+    <value>Editor de Actividades</value>
+  </data>
+  <data name="_M0009" xml:space="preserve">
+    <value>Presupuesto</value>
+  </data>
+  <data name="_M0010" xml:space="preserve">
+    <value>Administrador de Presupuestos</value>
+  </data>
+  <data name="_M0011" xml:space="preserve">
+    <value>Análisis y Reportes</value>
+  </data>
+  <data name="_M0012" xml:space="preserve">
+    <value>Presupuesto vs Actual</value>
+  </data>
+  <data name="_M0013" xml:space="preserve">
+    <value>Presupuesto vs Actual vs Forecast</value>
+  </data>
+  <data name="_M0014" xml:space="preserve">
+    <value>RVIC</value>
+  </data>
+  <data name="_M0015" xml:space="preserve">
+    <value>Configuración</value>
+  </data>
+  <data name="_M0016" xml:space="preserve">
+    <value>Log interfaces de importación</value>
+  </data>
+  <data name="_M0017" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="_M0018" xml:space="preserve">
+    <value>Cerrar sesion</value>
+  </data>
+  <data name="_M0019" xml:space="preserve">
+    <value>Mi cuenta</value>
+  </data>
+  <data name="_M0020" xml:space="preserve">
+    <value>Ordenes de Trabajo</value>
+  </data>
+  <data name="_M0021" xml:space="preserve">
+    <value>Organización</value>
+  </data>
+  <data name="_M0022" xml:space="preserve">
+    <value>Unidad Medida</value>
+  </data>
+  <data name="_M0023" xml:space="preserve">
+    <value>WBS</value>
+  </data>
+  <data name="_M0024" xml:space="preserve">
+    <value>Equipo Tipo</value>
+  </data>
+  <data name="_M0025" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="_M0026" xml:space="preserve">
+    <value>Actividad</value>
+  </data>
+  <data name="_M0027" xml:space="preserve">
+    <value>WIP Account</value>
+  </data>
+  <data name="_M0028" xml:space="preserve">
+    <value>Sistema</value>
+  </data>
+  <data name="_M0029" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="_M0030" xml:space="preserve">
+    <value>Categoría Activo</value>
+  </data>
+  <data name="_M0031" xml:space="preserve">
+    <value>Grupo Activo</value>
+  </data>
+  <data name="_M0032" xml:space="preserve">
+    <value>Perfil de Uso</value>
+  </data>
+  <data name="_M0033" xml:space="preserve">
+    <value>Centro Costo</value>
+  </data>
+  <data name="_M0034" xml:space="preserve">
+    <value>Costo Tipo</value>
+  </data>
+  <data name="_M0035" xml:space="preserve">
+    <value>Subsistema</value>
+  </data>
+  <data name="_M0036" xml:space="preserve">
+    <value>Cuenta</value>
+  </data>
+  <data name="_M0037" xml:space="preserve">
+    <value>Departamento</value>
+  </data>
+  <data name="_M0038" xml:space="preserve">
+    <value>Cuenta Agrupador</value>
+  </data>
+  <data name="_M0039" xml:space="preserve">
+    <value>Jerarquia de Componentes</value>
+  </data>
+  <data name="_M0040" xml:space="preserve">
+    <value>Actividades</value>
+  </data>
+  <data name="_M0041" xml:space="preserve">
+    <value>InterfazProgramación Actividades</value>
+  </data>
+  <data name="_M0042" xml:space="preserve">
+    <value>Libro Mayor</value>
+  </data>
+  <data name="_M0043" xml:space="preserve">
+    <value>Ordenes de Trabajo</value>
+  </data>
+  <data name="_M0044" xml:space="preserve">
+    <value>Categoría Costos Indirectos</value>
+  </data>
+  <data name="_M0045" xml:space="preserve">
+    <value>Presupuesto vs Actual por Cuentas</value>
+  </data>
+  <data name="_M0046" xml:space="preserve">
+    <value>Activos</value>
+  </data>
+  <data name="_M0047" xml:space="preserve">
+    <value>Presupuesto</value>
+  </data>
+  <data name="_S0001" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="_S0002" xml:space="preserve">
+    <value>Editor Estadísticas de Uso</value>
+  </data>
+  <data name="_S0003" xml:space="preserve">
+    <value>Administrador Presupuesto</value>
+  </data>
+  <data name="_S0004" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="_S0005" xml:space="preserve">
+    <value>Plan de Uso</value>
+  </data>
+  <data name="_S0006" xml:space="preserve">
+    <value>Costo Directo</value>
+  </data>
+  <data name="_S0007" xml:space="preserve">
+    <value>Activos</value>
+  </data>
+  <data name="_S0008" xml:space="preserve">
+    <value>Costo Indirecto</value>
+  </data>
+  <data name="_S0009" xml:space="preserve">
+    <value>Administración Activos</value>
+  </data>
+  <data name="_S0010" xml:space="preserve">
+    <value>Editor de Actividades</value>
+  </data>
+  <data name="_S0011" xml:space="preserve">
+    <value>Log interfaces de importación</value>
+  </data>
+  <data name="_S0012" xml:space="preserve">
+    <value>Editar Activo</value>
+  </data>
+  <data name="_S0013" xml:space="preserve">
+    <value>Escalamiento de Costo Directo</value>
+  </data>
+  <data name="_S0014" xml:space="preserve">
+    <value>Escalamiento de Costo Indirecto</value>
+  </data>
+  <data name="_S0015" xml:space="preserve">
+    <value>Editor Ordenes de Trabajo</value>
+  </data>
+  <data name="_S0016" xml:space="preserve">
+    <value>Editor Orden Trabajo</value>
+  </data>
+  <data name="_S0017" xml:space="preserve">
+    <value>Editor Actividad</value>
+  </data>
+  <data name="_S0018" xml:space="preserve">
+    <value>Proyección Actividades</value>
+  </data>
+  <data name="_S0019" xml:space="preserve">
+    <value>Configuración Organizacion</value>
+  </data>
+  <data name="_S0020" xml:space="preserve">
+    <value>Configuración Unidad Medida</value>
+  </data>
+  <data name="_S0021" xml:space="preserve">
+    <value>WBS</value>
+  </data>
+  <data name="_S0022" xml:space="preserve">
+    <value>Configuración Equipo Tipo</value>
+  </data>
+  <data name="_S0023" xml:space="preserve">
+    <value>Configuración Site</value>
+  </data>
+  <data name="_S0024" xml:space="preserve">
+    <value>Configuración Actividad</value>
+  </data>
+  <data name="_S0025" xml:space="preserve">
+    <value>Configuración WIP Account</value>
+  </data>
+  <data name="_S0026" xml:space="preserve">
+    <value>Configuración Sistema</value>
+  </data>
+  <data name="_S0027" xml:space="preserve">
+    <value>Configuración Area</value>
+  </data>
+  <data name="_S0028" xml:space="preserve">
+    <value>Configuración Categoría Activo</value>
+  </data>
+  <data name="_S0029" xml:space="preserve">
+    <value>Configuración Grupo Activo</value>
+  </data>
+  <data name="_S0030" xml:space="preserve">
+    <value>Perfil de Uso</value>
+  </data>
+  <data name="_S0031" xml:space="preserve">
+    <value>Configuración Centro Costo</value>
+  </data>
+  <data name="_S0032" xml:space="preserve">
+    <value>Configuración Costo Tipo</value>
+  </data>
+  <data name="_S0033" xml:space="preserve">
+    <value>Configuración Subsistema</value>
+  </data>
+  <data name="_S0034" xml:space="preserve">
+    <value>Perfil Uso Detalle por Mes</value>
+  </data>
+  <data name="_S0035" xml:space="preserve">
+    <value>Configuración Cuenta</value>
+  </data>
+  <data name="_S0036" xml:space="preserve">
+    <value>Configuración Departamento</value>
+  </data>
+  <data name="_S0037" xml:space="preserve">
+    <value>Configuración Cuenta Agrupador</value>
+  </data>
+  <data name="_S0038" xml:space="preserve">
+    <value>Jerarquía de Componentes</value>
+  </data>
+  <data name="_S0039" xml:space="preserve">
+    <value>Reporte Actual Vs Presupuesto</value>
+  </data>
+  <data name="_S0040" xml:space="preserve">
+    <value>Categoría Costos Indirectos</value>
+  </data>
+  <data name="_S0041" xml:space="preserve">
+    <value>Administrador de Presupuestos</value>
+  </data>
+  <data name="_S0049" xml:space="preserve">
+    <value>Detalle por Activo</value>
+  </data>
+  <data name="carpetaReporte" xml:space="preserve">
+    <value />
+  </data>
+  <data name="extensionReporte" xml:space="preserve">
+    <value />
+  </data>
+  <data name="_M0048" xml:space="preserve">
+    <value>B.I.</value>
+  </data>
+  <data name="reporteCambioComponente" xml:space="preserve">
+    <value>Reporte Cambio Componente</value>
+  </data>
+  <data name="_M0049" xml:space="preserve">
+    <value>Cambio Componente</value>
+  </data>
+  <data name="buscarActivo" xml:space="preserve">
+    <value>Buscar Activo</value>
+  </data>
+  <data name="_I0118" xml:space="preserve">
+    <value>Buscar Organizaciones</value>
+  </data>
+  <data name="_I0119" xml:space="preserve">
+    <value>Buscar Sites</value>
+  </data>
+  <data name="_I0120" xml:space="preserve">
+    <value>Buscar Áreas</value>
+  </data>
+  <data name="_I0121" xml:space="preserve">
+    <value>Buscar Departamentos</value>
+  </data>
+  <data name="_I0122" xml:space="preserve">
+    <value>Buscar Categorías</value>
+  </data>
+  <data name="_I0123" xml:space="preserve">
+    <value>Buscar Grupos</value>
+  </data>
+  <data name="_I0124" xml:space="preserve">
+    <value>Buscar Número de Activos</value>
+  </data>
+  <data name="_I0125" xml:space="preserve">
+    <value>Buscar Número de Serie</value>
+  </data>
+  <data name="_I0126" xml:space="preserve">
+    <value>Buscar WIPAccount</value>
+  </data>
+  <data name="_I0127" xml:space="preserve">
+    <value>Buscar Centros de Costo</value>
+  </data>
+  <data name="_I0128" xml:space="preserve">
+    <value>Buscar Actividad</value>
+  </data>
+  <data name="rango" xml:space="preserve">
+    <value>Rango</value>
+  </data>
+  <data name="_I0129" xml:space="preserve">
+    <value>Buscar Sistemas</value>
+  </data>
+  <data name="_I0130" xml:space="preserve">
+    <value>Buscar SubSistemas</value>
+  </data>
+  <data name="_I0131" xml:space="preserve">
+    <value>Buscar Codigo Componente</value>
+  </data>
+  <data name="_I0132" xml:space="preserve">
+    <value>Buscar Codigo Modificador</value>
+  </data>
+  <data name="_I0133" xml:space="preserve">
+    <value>Buscar Tipo Actividad</value>
+  </data>
+  <data name="_I0134" xml:space="preserve">
+    <value>Buscar Contador Actividad</value>
+  </data>
+  <data name="_I0135" xml:space="preserve">
+    <value>Agregar nuevo registro</value>
+  </data>
+  <data name="_I0136" xml:space="preserve">
+    <value>Eliminar registro</value>
+  </data>
+  <data name="_I0137" xml:space="preserve">
+    <value>El modelo de simulación se encuentra en Días</value>
+  </data>
+  <data name="_I0138" xml:space="preserve">
+    <value>Buscar Activos</value>
+  </data>
+  <data name="_I0139" xml:space="preserve">
+    <value>Buscar Descripción Actividad</value>
+  </data>
+  <data name="_I0140" xml:space="preserve">
+    <value>Buscar Cuentas</value>
+  </data>
+  <data name="_I0141" xml:space="preserve">
+    <value>No puede asignar unidad de medida en dias, hay actividades en horas</value>
+  </data>
+  <data name="_I0142" xml:space="preserve">
+    <value>Buscar Unidad Medida</value>
+  </data>
+  <data name="_I0143" xml:space="preserve">
+    <value>Valor fuera del rango</value>
+  </data>
+  <data name="_I0144" xml:space="preserve">
+    <value>Cantidad de lectura de uso es menor la anterior lectura de uso acumulada</value>
+  </data>
+  <data name="_I0145" xml:space="preserve">
+    <value>Valor no puede ser menor a su anterior</value>
+  </data>
+  <data name="_I0146" xml:space="preserve">
+    <value>Valor no puede ser mayor a su anterior</value>
+  </data>
+  <data name="_I0147" xml:space="preserve">
+    <value>Buscar Perfiles Uso</value>
+  </data>
+  <data name="_I0148" xml:space="preserve">
+    <value>El Periodo Fin no puede ser menor al Periodo Inicio</value>
+  </data>
+  <data name="_I0149" xml:space="preserve">
+    <value>Debe seleccionar una Fecha</value>
+  </data>
+  <data name="_I0150" xml:space="preserve">
+    <value>Activo a eliminar no encontrado</value>
+  </data>
+  <data name="_I0151" xml:space="preserve">
+    <value>Error al intentar eliminar activo</value>
+  </data>
+  <data name="_I0152" xml:space="preserve">
+    <value>Ingrese activos</value>
+  </data>
+  <data name="_I0153" xml:space="preserve">
+    <value>Debe seleccionar el Modelo de simulación</value>
+  </data>
+  <data name="_I0154" xml:space="preserve">
+    <value>Activos del Presupuesto</value>
+  </data>
+  <data name="_I0155" xml:space="preserve">
+    <value>No se realizaron los cambios</value>
+  </data>
+  <data name="_I0156" xml:space="preserve">
+    <value>Administrador Presupuesto - copiar</value>
+  </data>
+  <data name="_I0157" xml:space="preserve">
+    <value>Copiar presupuesto</value>
+  </data>
+  <data name="_I0158" xml:space="preserve">
+    <value>El presupuesto se copió correctamente</value>
+  </data>
+  <data name="_I0159" xml:space="preserve">
+    <value>Error al intentar copiar</value>
+  </data>
+  <data name="_I0160" xml:space="preserve">
+    <value>Excel o Grilla sin datos</value>
+  </data>
+  <data name="_I0161" xml:space="preserve">
+    <value>El campo debe poseer un valor mayor o igual a 0</value>
+  </data>
+  <data name="_I0162" xml:space="preserve">
+    <value>Plan de Uso del Ppto</value>
+  </data>
+  <data name="cargando2" xml:space="preserve">
+    <value>Cargando...</value>
+  </data>
+  <data name="copiar" xml:space="preserve">
+    <value>Copiar</value>
+  </data>
+  <data name="eliminar" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="meses" xml:space="preserve">
+    <value>Meses</value>
+  </data>
+  <data name="verDetalle" xml:space="preserve">
+    <value>Ver Detalle</value>
+  </data>
+  <data name="dias" xml:space="preserve">
+    <value>Dias</value>
+  </data>
+  <data name="horas" xml:space="preserve">
+    <value>Horas</value>
+  </data>
+  <data name="_I0163" xml:space="preserve">
+    <value>Frecuencia equivocada, excede los 365 proyecciones al año</value>
+  </data>
+  <data name="_M0050" xml:space="preserve">
+    <value>Paradas Activos</value>
+  </data>
+  <data name="_S0042" xml:space="preserve">
+    <value>Paradas Activos</value>
+  </data>
+  <data name="_I0164" xml:space="preserve">
+    <value>Buscar Estados</value>
+  </data>
+  <data name="tipoParada" xml:space="preserve">
+    <value>Tipo Parada</value>
+  </data>
+  <data name="fechaFinParada" xml:space="preserve">
+    <value>Fecha Fin de Parada</value>
+  </data>
+  <data name="fechaInicioParada" xml:space="preserve">
+    <value>Fecha Inicio de Parada</value>
+  </data>
+  <data name="responsable" xml:space="preserve">
+    <value>Responsable</value>
+  </data>
+  <data name="tipoRegistro" xml:space="preserve">
+    <value>Tipo Registro</value>
+  </data>
+  <data name="_I01642" xml:space="preserve">
+    <value>No puede exceder las 1500 Actividades, por favor de ser necesario refine sus búsquedas</value>
+  </data>
+  <data name="_S0043" xml:space="preserve">
+    <value>Administrador Parada Activos - Editar</value>
+  </data>
+  <data name="codigoParada" xml:space="preserve">
+    <value>Código Parada</value>
+  </data>
+  <data name="descripcionCodigoParada" xml:space="preserve">
+    <value>Descripción Código Parada</value>
+  </data>
+  <data name="responsableParada" xml:space="preserve">
+    <value>Responsable Parada</value>
+  </data>
+  <data name="_I0165" xml:space="preserve">
+    <value>¿Esta seguro de eliminar la Parada de Activo?</value>
+  </data>
+  <data name="_I0166" xml:space="preserve">
+    <value>Agregar Parada Activo</value>
+  </data>
+  <data name="_I0167" xml:space="preserve">
+    <value>Debe ingresar el número del Activo</value>
+  </data>
+  <data name="_I0168" xml:space="preserve">
+    <value>Fecha Fin Parada no puede ser menor a la Fecha Inicio Parada</value>
+  </data>
+  <data name="_I0169" xml:space="preserve">
+    <value>Fecha Fin no puede ser mayor a la Fecha de Inicio</value>
+  </data>
+  <data name="_I0170" xml:space="preserve">
+    <value>El Modelo S: [0] del Activo: [1] se encuentra en Días</value>
+  </data>
+  <data name="formatoHora" xml:space="preserve">
+    <value>HH:mm:ss</value>
+  </data>
+  <data name="_I0171" xml:space="preserve">
+    <value>¿Está seguro de guardar la Parada de Activo?</value>
+  </data>
+  <data name="_I0172" xml:space="preserve">
+    <value>¿Está seguro de actualizar la Parada de Activo?</value>
+  </data>
+  <data name="paradaActivo" xml:space="preserve">
+    <value>Parada Activo</value>
+  </data>
+  <data name="_M0051" xml:space="preserve">
+    <value>Mapa Codigos Dispatch</value>
+  </data>
+  <data name="_S0044" xml:space="preserve">
+    <value>Mapa Códigos Dispatch</value>
+  </data>
+  <data name="estadoCodigoParada" xml:space="preserve">
+    <value>Estado Código Parada</value>
+  </data>
+  <data name="_I0173" xml:space="preserve">
+    <value>No puede eliminar si sólo existe una Parada</value>
+  </data>
+  <data name="formatoFechaHoraComp" xml:space="preserve">
+    <value>dd/MM/yyyy HH:mm:ss</value>
+  </data>
+  <data name="codigoActivoDispatch" xml:space="preserve">
+    <value>Codigo Activo Dispatch</value>
+  </data>
+  <data name="parada" xml:space="preserve">
+    <value>Parada</value>
+  </data>
+  <data name="idParada" xml:space="preserve">
+    <value>IdParada</value>
+  </data>
+  <data name="cancelarCambios" xml:space="preserve">
+    <value>Cancelar los Cambios</value>
+  </data>
+  <data name="guardarCambios" xml:space="preserve">
+    <value>Guardar Cambios</value>
+  </data>
+  <data name="_I0174" xml:space="preserve">
+    <value>Introduzca el texto a buscar...</value>
+  </data>
+  <data name="_I0175" xml:space="preserve">
+    <value>No ha seleccionado ningún archivo</value>
+  </data>
+  <data name="reporteParadasActivos" xml:space="preserve">
+    <value>Reporte Paradas Activos</value>
+  </data>
+  <data name="_M0052" xml:space="preserve">
+    <value>Paradas Activos</value>
+  </data>
+  <data name="desdeFFParada" xml:space="preserve">
+    <value>Desde F.F. Parada</value>
+  </data>
+  <data name="desdeFIParada" xml:space="preserve">
+    <value>Desde F.I. Parada</value>
+  </data>
+  <data name="hastaFFParada" xml:space="preserve">
+    <value>Hasta F.F. Parada</value>
+  </data>
+  <data name="hastaFIParada" xml:space="preserve">
+    <value>Hasta F.I. Parada</value>
+  </data>
+  <data name="_I0176" xml:space="preserve">
+    <value>La Fecha de Desde Inicio de Parada no puede ser mayor a la Fecha de Hasta Inicio de Parada</value>
+  </data>
+  <data name="_I0177" xml:space="preserve">
+    <value>La Fecha de Desde Fin de Parada no puede ser mayor a la Fecha de Hasta Fin de Parada</value>
+  </data>
+  <data name="parametrosGrupoActivo" xml:space="preserve">
+    <value>Parametros de Grupo de Activos</value>
+  </data>
+  <data name="reporteDisponibilidadActual" xml:space="preserve">
+    <value>Reporte Disponibilidad Actual</value>
+  </data>
+  <data name="_M0053" xml:space="preserve">
+    <value>Disponibilidad Actual</value>
+  </data>
+  <data name="_M0054" xml:space="preserve">
+    <value>Disponibilidad Proyectada</value>
+  </data>
+  <data name="reporteDisponibilidadProyectada" xml:space="preserve">
+    <value>Reporte Disponibilidad Proyectada</value>
+  </data>
+  <data name="_M0055" xml:space="preserve">
+    <value>Horas Planificadas</value>
+  </data>
+  <data name="_M0056" xml:space="preserve">
+    <value>Organización</value>
+  </data>
+  <data name="_M0057" xml:space="preserve">
+    <value>Componentes</value>
+  </data>
+  <data name="_M0058" xml:space="preserve">
+    <value>Costos</value>
+  </data>
+  <data name="_M0059" xml:space="preserve">
+    <value>Usuarios</value>
+  </data>
+  <data name="_M0060" xml:space="preserve">
+    <value>Perfiles de Usuario</value>
+  </data>
+  <data name="_M0061" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="_M0062" xml:space="preserve">
+    <value>Control Estrategia</value>
+  </data>
+  <data name="_M0063" xml:space="preserve">
+    <value>Interfaces a Demanda</value>
+  </data>
+  <data name="_M0064" xml:space="preserve">
+    <value>Ultima Modificación AE</value>
+  </data>
+  <data name="_S0045" xml:space="preserve">
+    <value>Perfiles de Usuario</value>
+  </data>
+  <data name="actualizarPerfilUsuario" xml:space="preserve">
+    <value>Actualizar Perfil Usuario</value>
+  </data>
+  <data name="agregarPerfilUsuario" xml:space="preserve">
+    <value>Agregar Perfil Usuario</value>
+  </data>
+  <data name="_I0178" xml:space="preserve">
+    <value>¿Esta seguro de eliminar el perfil de usuario?</value>
+  </data>
+  <data name="_S0046" xml:space="preserve">
+    <value>Perfiles de Usuario Módulos</value>
+  </data>
+  <data name="perfilUsuario" xml:space="preserve">
+    <value>Perfil Usuario</value>
+  </data>
+  <data name="modulos" xml:space="preserve">
+    <value>Módulos</value>
+  </data>
+  <data name="reportes" xml:space="preserve">
+    <value>Reportes</value>
+  </data>
+  <data name="modulo" xml:space="preserve">
+    <value>Módulo</value>
+  </data>
+  <data name="_I0179" xml:space="preserve">
+    <value>Debe de haber un perfil por defecto</value>
+  </data>
+  <data name="reporte" xml:space="preserve">
+    <value>Reporte</value>
+  </data>
+  <data name="reporteHorasPlanificadas" xml:space="preserve">
+    <value>Horas Planificadas</value>
+  </data>
+  <data name="assetActivity" xml:space="preserve">
+    <value>Asset Activity</value>
+  </data>
+  <data name="esPorDefecto" xml:space="preserve">
+    <value>Es por defecto</value>
+  </data>
+  <data name="porDefecto" xml:space="preserve">
+    <value>Por defecto</value>
+  </data>
+  <data name="mainOption" xml:space="preserve">
+    <value>Opcion Principal</value>
+  </data>
+  <data name="reporte" xml:space="preserve">
+    <value>Reporte</value>
+  </data>
+  <data name="enabled" xml:space="preserve">
+    <value>Habilitado</value>
+  </data>
+  <data name="escritura" xml:space="preserve">
+    <value>Escritura</value>
+  </data>
+  <data name="perfil" xml:space="preserve">
+    <value>Perfil</value>
+  </data>
+  <data name="_I0180" xml:space="preserve">
+    <value>Ud. no tiene permiso para realizar esta accion</value>
+  </data>
+  <data name="_I0181" xml:space="preserve">
+    <value>El perfil ya ha sido registrado</value>
+  </data>
+  <data name="copiarPerfilUsuario" xml:space="preserve">
+    <value>Copiar Perfil de Usuario</value>
+  </data>
+  <data name="_I0182" xml:space="preserve">
+    <value>¿Se reprocesaran las proyecciones de todos los activos asociados a este perfil de uso, esta seguro?</value>
+  </data>
+  <data name="_I0183" xml:space="preserve">
+    <value>La actividad estratégica {0} está asociada a los siguientes presupuestos: {1}. Si presiona aceptar, se eliminarán todas las referencias de la actividad en los presupuestos</value>
+  </data>
+  <data name="_S0047" xml:space="preserve">
+    <value>Administración de usuarios</value>
+  </data>
+  <data name="_S0048" xml:space="preserve">
+    <value>Última Modificación AE</value>
+  </data>
+  <data name="I0003" xml:space="preserve">
+    <value>Archivo iniciando procesamiento</value>
+  </data>
+  <data name="I0004" xml:space="preserve">
+    <value>Archivo procesado Exitosamente!</value>
+  </data>
+  <data name="I0005" xml:space="preserve">
+    <value>Archivo procesado con Errores!</value>
+  </data>
+  <data name="I0006" xml:space="preserve">
+    <value>Fila {0}: Columna numero de activo vacía</value>
+  </data>
+  <data name="I0007" xml:space="preserve">
+    <value>Fila {0}: Columna contador actividad vacía</value>
+  </data>
+  <data name="I0008" xml:space="preserve">
+    <value>Fila {0}: Columna componente vacía</value>
+  </data>
+  <data name="I0009" xml:space="preserve">
+    <value>Fila {0}: Columna lectura uso ultima ocurrencia vacía</value>
+  </data>
+  <data name="I00010" xml:space="preserve">
+    <value>Fila {0}: Columna fecha ultima ocurrencia vacía o inválida</value>
+  </data>
+  <data name="I00011" xml:space="preserve">
+    <value>Procesando Archivo...</value>
+  </data>
+  <data name="detByEquipo" xml:space="preserve">
+    <value>Detalle Por Activo</value>
+  </data>
+</root>

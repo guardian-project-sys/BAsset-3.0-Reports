@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BAsset_3._0_Reports.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="repURI" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://sctdsdb/ReportServer</Value>
+    </Setting>
+    <Setting Name="repUserName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Administrator</Value>
+    </Setting>
+    <Setting Name="repPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Crea2015</Value>
+    </Setting>
+    <Setting Name="repDomain" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>
