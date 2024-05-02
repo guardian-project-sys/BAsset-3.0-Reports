@@ -2495,4 +2495,7 @@
   <data name="detByEquipo" xml:space="preserve">
     <value>Detail By Asset</value>
   </data>
+  <data name="reporteResumenRequerimiento" xml:space="preserve">
+    <value>Summary Requirement</value>
+  </data>
 </root>

@@ -1,5 +1,6 @@
 ﻿using Microsoft.Reporting.WebForms;
 using System;
+using System.Collections.Generic;
 using System.Globalization;
 using System.Net;
 using System.Security.Principal;
@@ -11,17 +12,18 @@ namespace BAsset_3._0_Reports
     public partial class ReportRender : System.Web.UI.Page
     {
         string nombreReporte = "";
-        string carpetaReporte = "BAsset3.0";
+        string carpetaReporte = "B-Asset_4.0";
         protected void Page_Init(object sender, EventArgs e)
         {
             int idReporte = 0;
             string NombreReporteTitulo = String.Empty;
             idReporte = int.Parse(Request.QueryString["IdReporte"]);
-            string cult = Request.QueryString["lang"] ?? "en-US";
+            string cult = Request.QueryString["lan"] ?? "en-US";
 
             CultureInfo culture = CultureInfo.GetCultureInfo(cult);
             Thread.CurrentThread.CurrentCulture = culture;
             Thread.CurrentThread.CurrentUICulture = culture;
+            var parameters = new List<ReportParameter>();
 
             switch (idReporte)
             {
@@ -89,6 +91,12 @@ namespace BAsset_3._0_Reports
                     nombreReporte = "/ControlEstrategia";
                     NombreReporteTitulo = Resources.multi.language.reporteHorasPlanificadas;
                     break;
+                case 17:
+                    nombreReporte = "/ResumenCreacionRequerimiento";
+                    string idRequest = Request.QueryString["idrequest"];
+                    NombreReporteTitulo = Resources.multi.language.reporteResumenRequerimiento;
+                    parameters.Add(new ReportParameter("IdRequerimiento", idRequest));
+                    break;
             }
 
             if (!Page.IsPostBack)
@@ -106,6 +114,8 @@ namespace BAsset_3._0_Reports
                     string rutareporte = "/" + carpetaReporte + (!String.IsNullOrEmpty(Resources.multi.language.carpetaReporte) ? "/" + Resources.multi.language.carpetaReporte : "") + nombreReporte + Resources.multi.language.extensionReporte;
                     serverReport.ReportPath = rutareporte;
                     serverReport.ReportServerCredentials = new MyReportServerCredentials();
+                    ReportMasterBasset.ServerReport.SetParameters(parameters);
+                    if (idReporte == 17) ReportMasterBasset.ShowParameterPrompts = false;
                     //ReportMasterBasset.SizeToReportContent = true;
                 }
                 else
@@ -135,7 +145,7 @@ namespace BAsset_3._0_Reports
             {
                 get
                 {
-                    string userName = Properties.Settings.Default.repUserName ?? "Administrator";
+                    string userName = Properties.Settings.Default.repUserName ?? "Administrador";
                     string password = Properties.Settings.Default.repPassword ?? "Crea2015";
                     string domain = Properties.Settings.Default.repDomain ?? "";
                     return new NetworkCredential(userName, password);

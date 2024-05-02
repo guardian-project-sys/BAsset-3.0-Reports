@@ -3949,6 +3949,15 @@ namespace Resources.multi {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Resumen Requerimiento.
+        /// </summary>
+        internal static string reporteResumenRequerimiento {
+            get {
+                return ResourceManager.GetString("reporteResumenRequerimiento", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Reporte RVIC.
         /// </summary>
         internal static string reporteRVIC {
